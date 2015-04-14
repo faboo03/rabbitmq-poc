@@ -1,0 +1,3 @@
+stadline_demo_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: StadlineDemoBundle:Default:index }

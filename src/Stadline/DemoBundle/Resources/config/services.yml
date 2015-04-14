@@ -1,0 +1,10 @@
+services:
+    split_file:
+        class: Stadline\DemoBundle\Service\SplitFile
+        arguments: 
+            - @old_sound_rabbit_mq.split_file_producer
+            
+    process_node:
+        class: Stadline\DemoBundle\Consumers\ReadNode
+        arguments:
+            - @logger

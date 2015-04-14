@@ -1,0 +1,4 @@
+stadline_demo:
+    resource: "@StadlineDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+
